@@ -43,34 +43,22 @@ flask-employee-crud
 
 # Instrucciones
 
-1. Clone the repository:
+1. Clonar el repository:
    ```
-   git clone <repository-url>
+   [git clone https://github.com/kamaro600/crudempleadospython.git]
    cd flask-employee-crud
    ```
 
-2. Create a `.env` file based on the `.env.example` file and configure your database connection settings.
-
-3. Install the required packages:
+2. Instalar los paquetes requeridos:
    ```
    pip install -r requirements.txt
    ```
 
-4. Build and run the application using Docker:
+3. Construir la aplicacion usando docker:
    ```
    docker-compose up --build
    ```
 
-5. Access the application at `http://localhost:5000`.
+4. Accede a la aplicacion en `http://localhost:5000`.
 
-## Usage
 
-- Navigate to the home page to view the list of employees.
-- Use the "Create Employee" button to add a new employee.
-- Click on an employee's name to view their details.
-- Use the "Edit" button to update employee information.
-- Use the "Delete" button to remove an employee record.
-
-## License
-
-This project is licensed under the MIT License.
