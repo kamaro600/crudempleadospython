@@ -45,7 +45,7 @@ flask-employee-crud
 
 1. Clonar el repository:
    ```
-   [git clone https://github.com/kamaro600/crudempleadospython.git]
+   git clone https://github.com/kamaro600/crudempleadospython.git
    cd flask-employee-crud
    ```
 
