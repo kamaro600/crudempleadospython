@@ -1,0 +1,3 @@
+DATABASE_URI = 'mysql+pymysql://username:password@db:3306/employees_db'
+SECRET_KEY = 'your_secret_key'
+DEBUG = True

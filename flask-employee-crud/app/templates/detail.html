@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Detail</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    {% extends "base.html" %}
+    {% block content %}
+      <h2 class="mb-3">Detalle empleado</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ID:</strong> {{ employee.id }}</li>
+        <li class="list-group-item"><strong>Usuario:</strong> {{ employee.username }}</li>
+        <li class="list-group-item"><strong>Nombre:</strong> {{ employee.name }}</li>
+        <li class="list-group-item"><strong>Email:</strong> {{ employee.email }}</li>
+        <li class="list-group-item"><strong>Puesto:</strong> {{ employee.position }}</li>
+      </ul>
+      <a href="{{ url_for('employees.index') }}" class="btn btn-link mt-3">Volver</a>
+    {% endblock %}
+</body>
+</html>
