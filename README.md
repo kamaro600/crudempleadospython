@@ -37,6 +37,7 @@ flask-employee-crud
 ## Requisitos
 
 - Python 3.x
+- Docker
 - Flask
 - PyMySQL
 - MySQL Server
