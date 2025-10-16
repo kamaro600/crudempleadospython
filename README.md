@@ -1,4 +1,4 @@
-# CRUD EMPLEADOS
+# CRUD EMPLEADOS PYTHON -MYSQL
 Este proyecto es un crud simple para manejo de empleados con Flask, Bootstrap y MYSQL. 
 
 ## Features
